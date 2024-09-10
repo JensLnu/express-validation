@@ -1,0 +1,32 @@
+npm init
+npm i express
+npm i express-validator
+npm i helmet
+npm i cookie-parser
+npm i express-session
+npm i cors
+
+
+validation bibliotek
+- zod
+- joi
+- express-validator
+
+
+
+
+Cookie settings
+Secure = true  // ser till att cookies bara använder HTTPS
+same site = ‘strict’
+
+
+Helmet https://www.npmjs.com/package/helmet
+Cors https://www.npmjs.com/package/cors?activeTab=readme
+
+
+Database service som inte kräver registrering av betalkort:
+Neon.tech
+Aiven.io
+
+som kräver registrering av betalkort:
+https://cloudinary.com/
